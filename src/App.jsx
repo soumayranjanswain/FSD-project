@@ -38,6 +38,8 @@ import MyUseMemo from "./Layout/MyUseMemo";
 import FormHandling from "./FormHandling";
 import ApiConnectivity from "./ApiConnectivity";
 import LCMethod from "./LCMethod";
+import UCComponent from "./UCComponent";
+import UseZustand from "./UseZustand";
 
 
 
@@ -57,6 +59,8 @@ function App(){
       <Route path="/form" element={<FormHandling/>}/>
       <Route path="/apiconnectivity" element={<ApiConnectivity/>}/>
       <Route path="/lcmethod" element={<LCMethod a={10} favcolor="white"/>}/>
+      <Route path="/uccomponent" element={<UCComponent/>}/>
+      <Route path="/usezustand" element={<UseZustand/>}/>
     </Routes>
     <Footer />
     </BrowserRouter>

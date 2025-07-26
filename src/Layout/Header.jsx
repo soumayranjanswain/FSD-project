@@ -12,6 +12,9 @@ function Header() {
             <Link to='/form'>Form</Link>
             <Link to='/apiconnectivity'>Api Connectivity</Link>
             <Link to='/lcmethod'>LCMethod</Link>
+            <Link to='/uccomponent'>UCComponent</Link>
+            <Link to='/createzustand'>CreateZustand</Link>
+            <Link to='/usezustand'>UseZustand</Link>
         </>
     )
 }
